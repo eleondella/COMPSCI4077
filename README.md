@@ -1,4 +1,4 @@
-# COMPSCI4077
+# COMPSCI4077 - Network based Social Media Analytics (Level 4 Coursework)
  This is the source code for my Level 4 Coursework for the Web Science module (COMPSCI4077).
 
 Data crawled was initially stored in MongoDB and then extracted into a JSON file for sample data to be provided in order to run the code.
