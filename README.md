@@ -14,4 +14,4 @@ In order to be able to run the code:
 2) Install dependencies by running: `pip install -r requirements.txt`
 3) To run Streaming API run: `python3 1a_streamingAPI.py`
 4) To run REST API run for enhanced data collection: `python3 1b_restAPI.py`
-5) To run all the data analysis again with the sample_data.json provided and produce relevant output as stated in the report:  `python3 2_3_4.py True`
+5) To run all the data analysis again with the sample_data.json provided and produce relevant output as stated in the report run:  `python3 2_3_4.py True`
