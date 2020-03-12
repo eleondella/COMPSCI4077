@@ -1,0 +1,96 @@
+Whole Dataset 
+Top 10 hashtags:
+----------------
+SaturdayNightTakeaway - 1146
+GreatestDancer - 937
+ENGvWAL - 466
+BURTOT - 402
+THFC - 111
+UnitedKingdom - 98
+free - 98
+CarryThemHome - 92
+GuinnessSixNations - 86
+COYS - 85
+foodwaste - 82
+
+
+Cluster 0
+Top 10 hashtags:
+----------------
+ENGvWAL - 172
+UnitedKingdom - 98
+free - 98
+BURTOT - 85
+foodwaste - 82
+GreatestDancer - 60
+London - 34
+Melfest - 29
+GuinnessSixNations - 27
+COYS - 26
+coronvirusuk - 26
+
+
+Cluster 1
+Top 10 hashtags:
+----------------
+SaturdayNightTakeaway - 1138
+saturdaynighttakeaway - 16
+SaturdayNightTakeAway - 15
+antanddec - 11
+craigdavid - 7
+AntAndDecSaturdayNightTakeaway - 5
+antvdec - 4
+tailendersoftheworlduniteandtakeover - 4
+ITVTakeAway - 3
+AntAndDec - 3
+snt - 3
+
+
+Cluster 2
+Top 10 hashtags:
+----------------
+GreatestDancer - 877
+greatestdancer - 61
+Harrison - 14
+TheGreatestDancer - 14
+otisquad - 13
+CherylSquad - 12
+Throwback - 9
+TGD - 8
+MichaelandJowita - 6
+MichaelAndJowita - 5
+TeamOti - 5
+
+
+Cluster 3
+Top 10 hashtags:
+----------------
+BURTOT - 317
+THFC - 94
+COYS - 59
+Burnley - 23
+PremierLeague - 22
+BurnleyFC - 19
+FPL - 18
+Spurs - 17
+PL - 16
+coys - 8
+twitterclarets - 7
+
+
+Cluster 4
+Top 10 hashtags:
+----------------
+ENGvWAL - 293
+CarryThemHome - 85
+GuinnessSixNations - 59
+joemarler - 10
+SixNations - 10
+England - 4
+ITVRugby - 3
+SendHerVictorious - 3
+WomensSixNations - 3
+6Nations - 2
+6Nations2020 - 2
+
+

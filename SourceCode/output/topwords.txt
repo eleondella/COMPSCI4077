@@ -1,0 +1,90 @@
+Whole Dataset
+Top 10 words:
+----------------
+rt - 2371
+saturdaynighttakeaway - 1179
+burnley - 1074
+greatestdancer - 1004
+1 - 632
+one - 578
+tottenham - 566
+get - 542
+like - 530
+good - 505
+
+
+Cluster 0
+Top 10 words:
+----------------
+rt - 527
+get - 451
+like - 441
+good - 440
+today - 432
+one - 424
+love - 335
+well - 335
+amp - 309
+great - 309
+
+
+Cluster 1
+Top 10 words:
+----------------
+saturdaynighttakeaway - 1170
+rt - 271
+dec - 136
+love - 121
+ant - 112
+plane - 70
+get - 68
+game - 68
+craig - 66
+happiest - 60
+
+
+Cluster 2
+Top 10 words:
+----------------
+greatestdancer - 938
+rt - 356
+jowita - 182
+michael - 180
+harrison - 154
+2020 - 112
+winner - 103
+performance - 78
+back - 71
+win - 70
+
+
+Cluster 3
+Top 10 words:
+----------------
+rt - 931
+burnley - 826
+tottenham - 554
+spurs - 405
+1 - 397
+burtot - 319
+mourinho - 306
+hotspur - 294
+alli - 183
+dele - 157
+
+
+Cluster 4
+Top 10 words:
+----------------
+engvwal - 296
+rt - 286
+wales - 152
+england - 129
+triple - 95
+crown - 92
+time - 91
+twickenham - 91
+win - 90
+full - 89
+
+

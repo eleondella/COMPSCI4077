@@ -1,0 +1,96 @@
+Whole Dataset
+Top 10 mentions:
+----------------
+itvtakeaway - 320
+GreatDancerTV - 269
+antanddec - 262
+LastWordOnSpurs - 220
+premierleague - 167
+JowitaMichael - 158
+EnglandRugby - 151
+BBCOne - 121
+CraigDavid - 87
+SkySportsPL - 80
+SixNationsRugby - 65
+
+
+Cluster 0
+Top 10 mentions:
+----------------
+GreatDancerTV - 68
+itvtakeaway - 65
+antanddec - 55
+EnglandRugby - 50
+SpursOfficial - 34
+WelshRugbyUnion - 33
+JowitaMichael - 33
+JoeMarler - 31
+BBCOne - 31
+SixNationsRugby - 30
+YouTube - 26
+
+
+Cluster 1
+Top 10 mentions:
+----------------
+itvtakeaway - 255
+antanddec - 207
+CraigDavid - 73
+StephenMulhern - 41
+gregjames - 29
+allantanddec - 27
+FleurEast - 15
+Team_AntandDec - 8
+BeatSaber - 7
+ITV - 6
+Nataliecoaten - 6
+
+
+Cluster 2
+Top 10 mentions:
+----------------
+GreatDancerTV - 201
+JowitaMichael - 125
+BBCOne - 88
+OtiMabuse - 38
+CherylOfficial - 23
+LilyJoseph - 19
+todrick - 11
+strictlymabuse - 9
+bbcstrictly - 8
+otidanai - 7
+justinebuckleya - 6
+
+
+Cluster 3
+Top 10 mentions:
+----------------
+LastWordOnSpurs - 213
+premierleague - 153
+SkySportsPL - 75
+RickSpur - 34
+FootballJOE - 33
+dembabafoot - 32
+Luketuc57920589 - 26
+marc_ba12 - 24
+SpursOfficial - 23
+BBCSport - 21
+OfficialFPL - 17
+
+
+Cluster 4
+Top 10 mentions:
+----------------
+EnglandRugby - 101
+SixNationsRugby - 35
+DavidDemon - 34
+DG22LFC - 27
+ultimaterugby - 11
+CheekyRuck - 10
+davidsmith1000 - 10
+JoeMarler - 10
+FinnB1 - 8
+WorldRugby - 8
+WelshRugbyUnion - 7
+
+
