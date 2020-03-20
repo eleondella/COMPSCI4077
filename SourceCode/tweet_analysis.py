@@ -181,6 +181,7 @@ def get_mention_network(dataframe):
     return mention_graph, user_mention_interactions
 
 # Get the interactions between the different users
+
 def get_retweet_interactions(tweet):
     # From every row of the original dataframe
     # First we obtain the 'user_id' and 'screen_name'
@@ -211,7 +212,7 @@ def get_retweet_network(dataframe):
     retweets_graph = nx.DiGraph()
     user_retweet_interactions = {}
 
-    #Build the graph by getting interaction for each reply tweet
+    #Build the graph by getting interaction for each retweet 
     for index, tweet in dataframe.iterrows():
         #Get tweets original user and the user interaction with the original tweet
         user, interactions = get_retweet_interactions(tweet)
@@ -249,6 +250,7 @@ def get_hashtag_network(dataframe):
 
     return hashtag_graph, hashtag_interactions
 
+#Get analytics of the network eg. number of edges and nodes etc.
 def analyse_networks(network_dictionary, networktype):
     analysis = pd.DataFrame()
 
@@ -282,6 +284,7 @@ def analyse_networks(network_dictionary, networktype):
 
     return analysis
 
+#Plot a directed graph of the network without labels
 def plot_network(graph, name):
     pos = nx.spring_layout(graph, k=0.05)
 
@@ -298,6 +301,7 @@ def plot_network(graph, name):
 def extract_links_triads(network_dictionary, networktype):
     analysis = pd.DataFrame()
 
+    #Using only some triad types which we believe are important, I do a triad_census analysis
     data_type = []
     triads_no = []
     links_no = []
@@ -314,6 +318,8 @@ def extract_links_triads(network_dictionary, networktype):
             data_type.append("Cluster " + str(key))
         else:
             data_type.append(key)
+
+        # Append number of each type found into the list
         triads_no.append(nx.algorithms.triads.triadic_census(network_dictionary[key]["GRAPH"])["300"])
         links_no.append(nx.algorithms.triads.triadic_census(network_dictionary[key]["GRAPH"])["102"])
         no_012.append(nx.algorithms.triads.triadic_census(network_dictionary[key]["GRAPH"])["012"])

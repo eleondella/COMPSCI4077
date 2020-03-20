@@ -51,7 +51,7 @@ df = tweet_analysis.get_tweet_information(cleaned_tweets)
 df['text'].replace(inplace=True,to_replace=r'RT',value=r'')
 df['sentiment'] = np.array([tweet_analysis.analyze_sentiment(tweet) for tweet in df['text']])
 
-#Part 2
+#Part 2 - Clustering using K-Means
 
 # Grouped by vectorising each tweet and applying K-Means clustering to find similar tweets and put them in 10 clusters
 CLUSTER_NO = 5
@@ -80,6 +80,7 @@ plt.ylabel("Number of Tweets")
 plt.tight_layout()
 plt.savefig("plots/clusters.png")
 
+#Get top hashtags for all data and individual clusters
 hashtags_file = open('output/tophashtags.txt', "w")
 top_hashtags = {}
 top_mentions = {}
@@ -137,6 +138,7 @@ for i in range(0,CLUSTER_NO):
     print ('\n' , file=hashtags_file)
 
 
+#Get top mentions for all data and individual clusters
 mentions_file = open("output/topmentions.txt","w")
 
 #Get most frequent mentions for the whole dataframe
@@ -186,7 +188,7 @@ for i in range(0,CLUSTER_NO):
 
     print ('\n', file=mentions_file)
 
-
+#Get top words for all data and individual clusters
 words_file = open("output/topwords.txt","w")
 tokenised=[]
 
@@ -221,7 +223,9 @@ for key, value in extract_clusters.items():
         print(word[0], "-", word[1], file=words_file)
     print ('\n', file=words_file)
 
-#Getting the means for important properties of all data
+
+
+#Getting the means for important properties of all data - STATISTICS PRINTED IN TERMINAL AND PLOTS SAVED IN "plots"
 data_means = df.mean()
 print("Number of tweets in total:" + str(len(df)) + "\n")
 print(data_means)
@@ -268,6 +272,9 @@ plt.xlabel("Cluster Number")
 plt.ylabel("Sentiment")
 plt.tight_layout()
 plt.savefig("plots/clusters_sentiment.png")
+
+
+# Part 3 - Forming User and Hashtag Networks
 
 #Getting a df with just reply tweets
 reply_columns = ['text', 'date', 'tweet_id', 'username', 'followers_no','in_reply_to_username','cluster']
@@ -381,6 +388,7 @@ html_file.write("<br/><h1>Hashtags Network</h1>")
 html_file.write(tweet_analysis.analyse_networks(hashtag_networks, 'Hashtags').to_html())
 html_file.close()
 
+# Part 4 - Getting links and triads from each network and carrying out analysis
 #Write Triad and Links Dataframes to html file
 html_file = open("output/triads_links.html", "w")
 html_file.write("<h1>Retweets Network</h1>")
